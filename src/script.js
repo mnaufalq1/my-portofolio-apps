@@ -15,7 +15,7 @@ const PORTFOLIO_PROJECTS = [
     title: "ARSIP ARSITEKTUR",
     category: "Ruang / Editorial",
     description: "Situs web arsip spasial yang dirancang dengan tipografi minimalis dan citra struktural besar, menciptakan galeri konsep arsitektur virtual.",
-    image: "/src/assets/images/project_architecture_1784270605927.jpg",
+    image: "src/assets/images/project_architecture_1784270605927.jpg",
     link: "https://github.com",
     year: "2026"
   },
@@ -24,7 +24,7 @@ const PORTFOLIO_PROJECTS = [
     title: "GEOMETRI SWISS",
     category: "Tipografi / Cetak",
     description: "Tata letak editorial dan seri poster yang mengeksplorasi grid legendaris Josef Müller-Brockmann. Berfokus pada aksen merah menyala dan tata letak struktural.",
-    image: "/src/assets/images/project_editorial_1784270617189.jpg",
+    image: "src/assets/images/project_editorial_1784270617189.jpg",
     link: "https://github.com",
     year: "2025"
   },
@@ -33,7 +33,7 @@ const PORTFOLIO_PROJECTS = [
     title: "ANTARMUKA GRAFIS SENSORIK",
     category: "Digital / UI UX",
     description: "Panel instrumen keuangan mode gelap yang memanfaatkan widget kontras tinggi, grafik bersih, dan kontrol taktil untuk analitik visual berlatensi rendah.",
-    image: "/src/assets/images/project_interface_1784270631676.jpg",
+    image: "src/assets/images/project_interface_1784270631676.jpg",
     link: "https://github.com",
     year: "2026"
   },
@@ -42,7 +42,7 @@ const PORTFOLIO_PROJECTS = [
     title: "MONOGRAM KINETIK",
     category: "Gerak / Kode",
     description: "Area bermain tipografi generatif yang menampilkan monogram geometris khusus sebagai respons terhadap interaksi mouse pengguna secara real-time.",
-    image: "/src/assets/images/project_editorial_1784270617189.jpg", // re-use clean print visual as placeholder
+    image: "src/assets/images/project_editorial_1784270617189.jpg", // re-use clean print visual as placeholder
     link: "https://github.com",
     year: "2025"
   }
