@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Portfolio",
+  "description": "A clean, typography-driven minimalist portfolio with responsive layout, dynamic project cards, dark mode toggle, and smooth vanilla animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
