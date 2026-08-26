@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Portfolio",
+  "description": "A typography-driven minimalist portfolio featuring multi-mode generative physics backgrounds, dynamic color themes, bilingual ID/EN support, Command Palette (Ctrl+K), and smooth vanilla animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

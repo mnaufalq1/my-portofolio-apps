@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Kreatif — Desain Minimalis Swiss</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Custom High-Performance Cursor Elements -->
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-circle" id="cursor-circle"></div>
+
+    <!-- Generative Multi-Mode Physics Canvas Engine -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Background Decoration Grids & Abstract Slow Shapes -->
+    <div class="bg-grid" id="background-grid"></div>
+    <div class="bg-shapes" id="background-shapes">
+      <div class="shape shape-1" id="shape-primary"></div>
+      <div class="shape shape-2" id="shape-secondary"></div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header id="header-nav">
+      <div class="nav-container">
+        <a href="#home" class="logo-container" id="logo-link">
+          <div class="logo-dot"></div>
+          <span class="logo-text" id="nav-logo-text">PORTOFOLIO</span>
+        </a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#home" id="nav-item-home">BERANDA</a></li>
+            <li><a href="#skills" id="nav-item-skills">KEAHLIAN</a></li>
+            <li><a href="#portfolio" id="nav-item-portfolio">KARYA</a></li>
+            <li><a href="#contact" id="nav-item-contact">KONTAK</a></li>
+            
+            <!-- Command Palette Trigger Button -->
+            <li>
+              <button class="cmd-trigger-btn" id="nav-cmd-trigger" aria-label="Buka Command Palette">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"/>
+                  <path d="m21 21-4.3-4.3"/>
+                </svg>
+                <span class="cmd-badge-shortcut mono">⌘K</span>
+              </button>
+            </li>
+
+            <!-- Bilingual Switcher (ID / EN) -->
+            <li>
+              <div class="lang-toggle-btn" id="lang-toggle" role="group" aria-label="Pilih Bahasa">
+                <span class="lang-btn active" id="lang-btn-id" data-lang="id">ID</span>
+                <span style="opacity: 0.3; margin: 0 2px;">/</span>
+                <span class="lang-btn" id="lang-btn-en" data-lang="en">EN</span>
+              </div>
+            </li>
+
+            <!-- Theme Selector Button -->
+            <li>
+              <button class="theme-toggle-btn" id="theme-toggle" aria-label="Ubah tema tampilan">
+                <div class="theme-icon-circle"></div>
+                <span class="theme-text" id="theme-toggle-text">TEMA</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main id="main-content">
+      <!-- Section 1: Hero / Introduction -->
+      <section class="hero-grid" id="home">
+        <div class="hero-content scroll-reveal" id="hero-info-panel">
+          <span class="hero-subtitle mono" id="hero-role-label">DIREKTUR KREATIF & DESAINER GRAFIS</span>
+          <h1 class="hero-title" id="hero-main-heading">
+            MERANCANG ANTARMUKA<br />
+            DIGITAL KHUSUS &<br />
+            GEOMETRI EDITORIAL.
+          </h1>
+          <p class="hero-description" id="hero-paragraph-text">
+            Mendesain tata letak struktural yang bersih dan berkontras tinggi berlandaskan prinsip Desain Swiss, keselarasan grid yang kokoh, serta interaksi sisi klien yang berkinerja tinggi.
+          </p>
+          <div class="hero-cta" id="hero-actions">
+            <!-- Download CV actually compiles & bundles a local HTML resume directly from javascript memory -->
+            <button class="btn" id="download-cv-btn">
+              <span id="btn-download-cv-label">UNDUH CV</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 12V2M8 12L4 8M8 12L12 8M2 14H14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <a href="#contact" class="btn btn-secondary" id="contact-redirect-btn">HUBUNGI SAYA</a>
+          </div>
+        </div>
+
+        <!-- Asymmetrical Profile Picture Box -->
+        <div class="hero-image-wrapper scroll-reveal reveal-scale reveal-delay-2" id="hero-avatar-container">
+          <div class="hero-image-outline"></div>
+          <div class="hero-image-box">
+            <img src="/src/assets/images/profile_portrait_1784270589311.jpg" alt="Potret Kreatif" id="hero-profile-avatar" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Skills / Expertise -->
+      <section id="skills">
+        <div class="section-header scroll-reveal" id="skills-header">
+          <span class="section-num mono" id="skills-section-num">01 / KEMAMPUAN</span>
+          <h2 class="section-title" id="skills-section-title">KEAHLIAN & DISIPLIN UTAMA</h2>
+        </div>
+        <div class="skills-grid" id="capabilities-cards-container">
+          <!-- Skill 1 -->
+          <div class="skill-card scroll-reveal reveal-delay-1" id="skill-design">
+            <span class="skill-num mono" id="skill-1-num">01</span>
+            <h3 class="skill-title" id="skill-1-title">PENGARAHAN SENI</h3>
+            <p class="skill-description" id="skill-1-desc">Menyusun hierarki tipografi, keselarasan spasial, dan komposisi responsif minimalis yang dipengaruhi oleh tata letak grid cetak Swiss klasik.</p>
+            <div class="skill-tags">
+              <span class="skill-tag mono" id="skill-1-tag-1">Sistem Grid</span>
+              <span class="skill-tag mono" id="skill-1-tag-2">Editorial</span>
+              <span class="skill-tag mono" id="skill-1-tag-3">Figma</span>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div class="skill-card scroll-reveal reveal-delay-2" id="skill-engineering">
+            <span class="skill-num mono" id="skill-2-num">02</span>
+            <h3 class="skill-title" id="skill-2-title">SISTEM ANTARMUKA</h3>
+            <p class="skill-description" id="skill-2-desc">Membangun alur browser semantik yang sangat ringan dengan kode murni (vanilla), memastikan kinerja luar biasa dan interaksi yang lancar.</p>
+            <div class="skill-tags">
+              <span class="skill-tag mono" id="skill-2-tag-1">HTML5 / CSS3</span>
+              <span class="skill-tag mono" id="skill-2-tag-2">Vanilla JS</span>
+              <span class="skill-tag mono" id="skill-2-tag-3">Kinerja Web</span>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div class="skill-card scroll-reveal reveal-delay-3" id="skill-assets">
+            <span class="skill-num mono" id="skill-3-num">03</span>
+            <h3 class="skill-title" id="skill-3-title">ASET GEOMETRIS</h3>
+            <p class="skill-description" id="skill-3-desc">Mensintesis peta vektor berpresisi tinggi, simulasi kanvas matematis, dan animasi dinamis menggunakan logika matriks vanilla.</p>
+            <div class="skill-tags">
+              <span class="skill-tag mono" id="skill-3-tag-1">Tata Letak SVG</span>
+              <span class="skill-tag mono" id="skill-3-tag-2">API Canvas</span>
+              <span class="skill-tag mono" id="skill-3-tag-3">Grafis Matematika</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Portfolio / Selected Works -->
+      <section id="portfolio">
+        <div class="section-header scroll-reveal" id="portfolio-header">
+          <span class="section-num mono" id="portfolio-section-num">02 / ARSIP</span>
+          <h2 class="section-title" id="portfolio-section-title">KARYA PROYEK SPASIAL & DIGITAL PILIHAN</h2>
+        </div>
+        <!-- Projects Bento Grid - Loaded dynamically from script.js array -->
+        <div class="portfolio-grid" id="portfolio-grid">
+          <!-- Dynamically populated in script.js -->
+        </div>
+      </section>
+
+      <!-- Section 4: Contact / Correspondence -->
+      <section id="contact">
+        <div class="section-header scroll-reveal" id="contact-header">
+          <span class="section-num mono" id="contact-section-num">03 / KORESPONDENSI</span>
+          <h2 class="section-title" id="contact-section-title">KIRIM PESAN LANGSUNG</h2>
+        </div>
+        <div class="contact-grid" id="contact-details-grid">
+          <div class="contact-info scroll-reveal reveal-side-left" id="contact-metadata-panel">
+            <p class="contact-statement" id="contact-statement-text">
+              MEMILIKI IDE DESAIN ATAU EKSPERIMEN SISTEM DIGITAL? KIRIM PESAN UNTUK MEMBAHAS KECOCOKAN PROYEK.
+            </p>
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <span class="channel-label" id="channel-email-label">SURAT ELEKTRONIK (EMAIL)</span>
+                <a href="mailto:mnaufalq1@gmail.com" class="channel-value" id="email-link">mnaufalq1@gmail.com</a>
+              </div>
+              <div class="contact-channel-item">
+                <span class="channel-label" id="channel-loc-label">LOKASI</span>
+                <span class="channel-value" style="cursor: default;" id="location-label">Jakarta, Indonesia</span>
+              </div>
+            </div>
+            <div class="social-links" id="social-media-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Portal GitHub" id="github-icon-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Portal LinkedIn" id="linkedin-icon-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pure Interactive Form -->
+          <form class="contact-form scroll-reveal reveal-side-right" id="contact-form">
+            <!-- Successful submitting swaps view opacity to show this block -->
+            <div class="form-notification" id="form-success-notification">
+              <div class="notification-icon-container">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <h3 class="notification-title" id="notif-title-status">PESAN DITERIMA</h3>
+              <p class="notification-desc" id="success-notification-desc">
+                Pesan telah disiapkan. Klik tombol di bawah untuk membukanya di klien email Anda.
+              </p>
+              <div style="display: flex; flex-direction: column; gap: 0.75rem; width: 100%; max-width: 280px; margin-top: 1rem;">
+                <a href="#" id="manual-mailto-btn" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="text-align: center; display: block; text-decoration: none; width: 100%;">BUKA EMAIL</a>
+                <button type="button" id="copy-email-btn" class="btn btn-secondary" style="width: 100%; cursor: pointer;">SALIN ALAMAT EMAIL</button>
+                <button type="button" class="btn" id="close-notification" style="width: 100%; border-color: transparent; background: transparent; color: var(--muted); cursor: pointer; padding: 0.5rem 0;">KEMBALI</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-name" class="form-label" id="form-name-label">NAMA LENGKAP</label>
+              <input type="text" id="form-name" class="form-input" placeholder="misal: Josef Müller" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email" class="form-label" id="form-email-label">ALAMAT EMAIL</label>
+              <input type="email" id="form-email" class="form-input" placeholder="misal: josef@muller.ch" required />
+            </div>
+            <div class="form-group">
+              <label for="form-message" class="form-label" id="form-msg-label">ISI PESAN KORESPONDENSI</label>
+              <textarea id="form-message" class="form-input" placeholder="Tulis rencana pesan atau proyek Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width:100%;" id="form-submit-btn">KIRIM PESAN</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Generative Background & Mode HUD Controller -->
+    <div class="bg-hud-container" id="bg-hud-container">
+      <div class="bg-hud-menu" id="bg-hud-menu">
+        <div class="bg-hud-menu-header mono" id="bg-hud-menu-header">MODE LATAR BELAKANG</div>
+        <button class="bg-hud-menu-item active" data-bg-mode="quantum">
+          <span><span class="bg-hud-menu-item-icon">⚛️</span> Quantum Constellation</span>
+        </button>
+        <button class="bg-hud-menu-item" data-bg-mode="hyperspace">
+          <span><span class="bg-hud-menu-item-icon">🚀</span> Hyperspace Warp</span>
+        </button>
+        <button class="bg-hud-menu-item" data-bg-mode="swarm">
+          <span><span class="bg-hud-menu-item-icon">🪐</span> Gravitational Swarm</span>
+        </button>
+        <button class="bg-hud-menu-item" data-bg-mode="matrix">
+          <span><span class="bg-hud-menu-item-icon">💻</span> Cyber Matrix</span>
+        </button>
+        <button class="bg-hud-menu-item" data-bg-mode="sine">
+          <span><span class="bg-hud-menu-item-icon">🌊</span> Harmonic Sine Waves</span>
+        </button>
+        <button class="bg-hud-menu-item" data-bg-mode="off">
+          <span><span class="bg-hud-menu-item-icon">⏹️</span> Grid Statis (Off)</span>
+        </button>
+      </div>
+
+      <div class="bg-hud-pill">
+        <button class="bg-hud-mode-btn" id="bg-hud-mode-btn" aria-label="Ganti mode latar belakang" title="Klik untuk menu latar belakang">
+          <span class="bg-hud-indicator-dot"></span>
+          <span id="bg-hud-mode-name">Quantum Constellation</span>
+        </button>
+        <div class="bg-hud-divider"></div>
+        <button class="bg-hud-icon-btn" id="bg-hud-next-btn" aria-label="Mode berikutnya" title="Beralih ke mode berikutnya">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Swiss-Cyber Command Palette Modal (Ctrl+K) -->
+    <div class="cmd-palette-backdrop" id="command-palette-modal" role="dialog" aria-modal="true" aria-label="Command Palette">
+      <div class="cmd-palette-window">
+        <div class="cmd-search-box">
+          <svg class="cmd-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input type="text" class="cmd-search-input" id="command-palette-input" placeholder="Ketik perintah atau cari bagian (contoh: tema, karya, kontak)..." autocomplete="off" spellcheck="false" />
+          <button type="button" class="cmd-close-btn mono" id="command-palette-close">ESC</button>
+        </div>
+        <div class="cmd-list-container" id="command-palette-list">
+          <!-- Populated dynamically by commandPalette.js -->
+        </div>
+        <div class="cmd-footer-bar">
+          <div class="cmd-footer-hints">
+            <span><span class="cmd-key-tag">↑↓</span> <span id="cmd-hint-nav-label">Navigasi</span></span>
+            <span><span class="cmd-key-tag">↵</span> <span id="cmd-hint-sel-label">Pilih</span></span>
+            <span><span class="cmd-key-tag">ESC</span> <span id="cmd-hint-cls-label">Tutup</span></span>
+          </div>
+          <span class="mono" style="opacity: 0.6;">PORTOFOLIO ENGINE</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editorial Footer -->
+    <footer id="footer-section">
+      <div class="footer-container scroll-reveal">
+        <span class="footer-copy mono" id="footer-copy-text">© 2026 STUDIO DESAIN. HAK CIPTA DILINDUNGI SECARA LOKAL.</span>
+        <span class="footer-meta mono" id="footer-time-indicator">JAKARTA / INDONESIA</span>
+      </div>
+    </footer>
+
+    <!-- Vanilla Javascript Module Entrypoint -->
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
