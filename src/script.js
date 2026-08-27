@@ -544,7 +544,7 @@ function triggerCvDownload() {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Resume - Creative Graphic Engineer & Art Director</title>
+  <title>Resume - Junior Fullstack Developer & Muslim Programmer</title>
   <style>
     body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #F9F9F7; color: #1A1B1E; padding: 4rem 3rem; max-width: 800px; margin: 0 auto; line-height: 1.6; }
     header { border-bottom: 2px solid #1A1B1E; padding-bottom: 2rem; margin-bottom: 3rem; display: flex; justify-content: space-between; align-items: flex-end; }
@@ -565,35 +565,27 @@ function triggerCvDownload() {
   <header>
     <div>
       <h1>Portfolio Creator</h1>
-      <div class="subtitle">Creative Director & Graphic Engineer</div>
+      <div class="subtitle">Junior Fullstack Developer & Muslim Programmer</div>
     </div>
     <div class="contact-info">
       <div>mnaufalq1@gmail.com</div>
-      <div>Jakarta, Indonesia</div>
-      <div>github.com/portfolio</div>
+      <div>Yogyakarta, Indonesia</div>
+      <div>github.com/mnaufalq1</div>
     </div>
   </header>
   <section>
     <h2>Professional Profile</h2>
-    <p>Experienced digital systems designer specializing in high-contrast editorial layouts, classic Swiss grid methodologies, and low-latency client-side interfaces. Passionate about marrying geometric typography with dynamic canvas mathematics.</p>
+    <p>A junior fullstack developer who sets out to build modern web applications with efficient architecture and responsive interfaces.</p>
   </section>
   <section>
     <h2>Work Experience</h2>
     <div class="experience-item">
       <div class="item-header">
-        <div>METADATA DESIGN STUDIO</div>
-        <div>2024 — Present</div>
+        <div>JUNIOR FULLSTACK DEVELOPER</div>
+        <div>2026 — Present</div>
       </div>
-      <div class="item-role">Lead Interface Architect</div>
-      <p class="item-description">Pioneered interactive editorial design systems for international architectural exhibitions. Led a multidisciplinary squad building generative vector engines and real-time visualization suites.</p>
-    </div>
-    <div class="experience-item">
-      <div class="item-header">
-        <div>SWISS GRID WORKS</div>
-        <div>2022 — 2024</div>
-      </div>
-      <div class="item-role">Senior Graphic Designer</div>
-      <p class="item-description">Crafted responsive brand ecosystems and digital archive galleries for luxury architectural and contemporary art clients.</p>
+      <div class="item-role">Junior Fullstack Developer</div>
+      <p class="item-description">Building End-to-End Web Applications with Modern Architecture, Robust RESTful APIs, Relational Database Design, High-Performance, and Efficient User Interfaces.</p>
     </div>
   </section>
   <section>
@@ -621,7 +613,7 @@ function triggerCvDownload() {
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Resume - Portofolio Desain Kreatif</title>
+  <title>Resume - Junior Fullstack Developer & Muslim Programmer</title>
   <style>
     body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #F9F9F7; color: #1A1B1E; padding: 4rem 3rem; max-width: 800px; margin: 0 auto; line-height: 1.6; }
     header { border-bottom: 2px solid #1A1B1E; padding-bottom: 2rem; margin-bottom: 3rem; display: flex; justify-content: space-between; align-items: flex-end; }
@@ -642,35 +634,27 @@ function triggerCvDownload() {
   <header>
     <div>
       <h1>Kreator Portofolio</h1>
-      <div class="subtitle">Direktur Kreatif & Desainer Grafis</div>
+      <div class="subtitle">Junior Fullstack Developer & Muslim Programmer</div>
     </div>
     <div class="contact-info">
       <div>mnaufalq1@gmail.com</div>
       <div>Jakarta, Indonesia</div>
-      <div>github.com/creator</div>
+      <div>github.com/mnaufalq1</div>
     </div>
   </header>
   <section>
     <h2>Profil Singkat</h2>
-    <p>Spesialis desainer digital berpengalaman merancang pengalaman fisik-digital khusus. Berfokus pada tipografi editorial berkontras tinggi, keselarasan grid minimalis, dan interaksi klien berkinerja tinggi. Memanfaatkan prinsip Desain Swiss untuk menyusun metadata arsitektur yang kompleks secara elegan.</p>
+    <p>Seorang pengembang fullstack junior yang berdedikasi untuk membangun aplikasi web modern dengan arsitektur yang efisien dan antarmuka yang responsif.</p>
   </section>
   <section>
     <h2>Pengalaman Kerja</h2>
     <div class="experience-item">
       <div class="item-header">
-        <div>STUDIO METADATA</div>
-        <div>2024 — Sekarang</div>
+        <div>PROGRAMMER</div>
+        <div>2026 — Sekarang</div>
       </div>
-      <div class="item-role">Arsitek Antarmuka Utama</div>
-      <p class="item-description">Merintis kerangka kerja editorial interaktif untuk agensi arsitektur internasional. Memimpin tim desainer untuk membangun mesin tata letak tipografi taktil yang menghasilkan peningkatan konsistensi tata letak sebesar 40%.</p>
-    </div>
-    <div class="experience-item">
-      <div class="item-header">
-        <div>GRID & BRUSH CO.</div>
-        <div>2022 — 2024</div>
-      </div>
-      <div class="item-role">Desainer Grafis Senior</div>
-      <p class="item-description">Mengelola alur branding dan portofolio digital untuk galeri seni mewah. Merancang ulang basis kode tata letak visual untuk rendering perangkat seluler berlatensi rendah yang mulus.</p>
+      <div class="item-role">Pengembang Web Fullstack</div>
+      <p class="item-description">Pengembangan aplikasi web end-to-end dengan arsitektur modern, RESTful API, manajemen basis data, performa tinggi, dan antarmuka responsif yang efisien.</p>
     </div>
   </section>
   <section>

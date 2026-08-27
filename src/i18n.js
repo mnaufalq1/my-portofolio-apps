@@ -7,7 +7,7 @@
 export const I18N_DATA = {
   id: {
     // Navigation
-    navLogo: "PORTOFOLIO",
+    navLogo: "PALTOFOLIO",
     navHome: "BERANDA",
     navSkills: "KEAHLIAN",
     navPortfolio: "KARYA",
@@ -16,9 +16,9 @@ export const I18N_DATA = {
     themeToggleText: "TEMA",
 
     // Hero Section
-    heroSubtitle: "DIREKTUR KREATIF & DESAINER GRAFIS",
-    heroHeading: "MERANCANG ANTARMUKA<br />DIGITAL KHUSUS &<br />GEOMETRI EDITORIAL.",
-    heroDescription: "Mendesain tata letak struktural yang bersih dan berkontras tinggi berlandaskan prinsip Desain Swiss, keselarasan grid yang kokoh, serta interaksi sisi klien yang berkinerja tinggi.",
+    heroSubtitle: "JUNIOR FULLSTACK DEVELOPER",
+    heroHeading: "DEVELOPING CUSTOM<br />WEB APPLICATIONS &<br />MUSLIM PROGRAMMER",
+    heroDescription: "Membangun aplikasi web end-to-end dengan arsitektur modern, RESTful API yang andal, manajemen basis data, performa tinggi, dan antarmuka responsif yang efisien.",
     heroDownloadCv: "UNDUH CV",
     heroContactMe: "HUBUNGI SAYA",
 
@@ -57,7 +57,7 @@ export const I18N_DATA = {
         title: "MANAJEMEN KEUANGAN PERSONAL",
         category: "Digital / Aplikasi",
         description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu dalam mengelola keuangan pribadi.",
-        image: "/src/assets/images/Picture27082017.jpg",
+        image: "/src/assets/images/Picture1.jpg",
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
@@ -72,11 +72,11 @@ export const I18N_DATA = {
       },
       {
         id: 3,
-        title: "ANTARMUKA GRAFIS SENSORIK",
+        title: "WEATHER APPS",
         category: "Digital / UI UX",
-        description: "Panel instrumen keuangan mode gelap yang memanfaatkan widget kontras tinggi, grafik bersih, dan kontrol taktil untuk analitik visual berlatensi rendah.",
-        image: "/src/assets/images/project_interface_1784270631676.jpg",
-        link: "https://github.com",
+        description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu mengecek cuaca di kota tertentu dengan antarmuka yang bersih dan ramah pengguna.",
+        image: "/src/assets/images/Picture3.png",
+        link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
       }
     ],
@@ -132,7 +132,7 @@ export const I18N_DATA = {
 
   en: {
     // Navigation
-    navLogo: "PORTFOLIO",
+    navLogo: "PALTFOLIO",
     navHome: "HOME",
     navSkills: "SKILLS",
     navPortfolio: "WORKS",
@@ -141,9 +141,9 @@ export const I18N_DATA = {
     themeToggleText: "THEME",
 
     // Hero Section
-    heroSubtitle: "CREATIVE DIRECTOR & GRAPHIC ENGINEER",
-    heroHeading: "CRAFTING BESPOKE<br />DIGITAL INTERFACES &<br />EDITORIAL GEOMETRY.",
-    heroDescription: "Designing clean, high-contrast structural layouts rooted in Swiss Design principles, uncompromising grid alignments, and hyper-performant client-side interactions.",
+    heroSubtitle: "JUNIOR FULLSTACK DEVELOPER",
+    heroHeading: "DEVELOPING CUSTOM<br />WEB APPLICATIONS &<br />MUSLIM PROGRAMMER",
+    heroDescription: "Building end-to-end web applications with modern architecture, robust RESTful APIs, relational database design, high-performance, and efficient user interfaces.",
     heroDownloadCv: "DOWNLOAD CV",
     heroContactMe: "GET IN TOUCH",
 
@@ -182,36 +182,27 @@ export const I18N_DATA = {
         title: "PERSONAL FINANCE MANAGEMENT",
         category: "Digital / Application",
         description: "A streamlined web application designed to help individuals track, organize, and manage personal expenses and financial habits.",
-        image: "/src/assets/images/Picture27082017.jpg",
+        image: "/src/assets/images/Picture1.jpg",
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
       {
         id: 2,
-        title: "SWISS GEOMETRY",
-        category: "Typography / Print",
-        description: "Editorial layout and poster series exploring Josef Müller-Brockmann's legendary grid systems, focusing on stark crimson accents and structured columns.",
-        image: "/src/assets/images/project_editorial_1784270617189.jpg",
-        link: "https://github.com",
-        year: "2025"
-      },
-      {
-        id: 3,
-        title: "SENSORY GRAPHIC UI",
-        category: "Digital / UI UX",
-        description: "Dark-mode financial telemetry instrument panel leveraging high-contrast widgets, crisp graphs, and tactile dials for real-time visual analytics.",
-        image: "/src/assets/images/project_interface_1784270631676.jpg",
-        link: "https://github.com",
+        title: "VIDEO CONVERTER APPS",
+        category: "Digital / Application",
+        description: "A web apps designed to help individuals convert videos to other formats with a clean and user-friendly interface.",
+        image: "/src/assets/images/Picture2.png",
+        link: "https://github.com/mnaufalq1/converter-video-apps",
         year: "2026"
       },
       {
-        id: 4,
-        title: "KINETIC MONOGRAM",
-        category: "Motion / Code",
-        description: "Generative typographic playground that synthesizes custom geometric monograms responsive to real-time mouse velocities and physics vectors.",
-        image: "/src/assets/images/project_editorial_1784270617189.jpg",
-        link: "https://github.com",
-        year: "2025"
+        id: 3,
+        title: "WEATHER APPS",
+        category: "Digital / UI UX",
+        description: "A web apps designed to help individuals check the weather in a specific city with a clean and user-friendly interface.",
+        image: "/src/assets/images/Picture3.png",
+        link: "https://github.com/mnaufalq1/weather-apps",
+        year: "2026"
       }
     ],
 
