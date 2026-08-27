@@ -57,18 +57,18 @@ export const I18N_DATA = {
         title: "MANAJEMEN KEUANGAN PERSONAL",
         category: "Digital / Aplikasi",
         description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu dalam mengelola keuangan pribadi.",
-        image: "assets/images/Picture27082017.jpg",
+        image: "/src/assets/images/Picture27082017.jpg",
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
       {
         id: 2,
-        title: "GEOMETRI SWISS",
-        category: "Tipografi / Cetak",
-        description: "Tata letak editorial dan seri poster yang mengeksplorasi grid legendaris Josef Müller-Brockmann. Berfokus pada aksen merah menyala dan tata letak struktural.",
-        image: "/src/assets/images/project_editorial_1784270617189.jpg",
-        link: "https://github.com",
-        year: "2025"
+        title: "KONVERTER VIDEO",
+        category: "Digital / Aplikasi",
+        description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu dalam mengonversi video ke format lain.",
+        image: "/src/assets/images/Picture2.png",
+        link: "https://github.com/mnaufalq1/converter-video-apps",
+        year: "2026"
       },
       {
         id: 3,
