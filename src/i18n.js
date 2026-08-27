@@ -78,15 +78,6 @@ export const I18N_DATA = {
         image: "/src/assets/images/project_interface_1784270631676.jpg",
         link: "https://github.com",
         year: "2026"
-      },
-      {
-        id: 4,
-        title: "MONOGRAM KINETIK",
-        category: "Gerak / Kode",
-        description: "Area bermain tipografi generatif yang menampilkan monogram geometris khusus sebagai respons terhadap interaksi mouse pengguna secara real-time.",
-        image: "/src/assets/images/project_editorial_1784270617189.jpg",
-        link: "https://github.com",
-        year: "2025"
       }
     ],
 
@@ -191,7 +182,7 @@ export const I18N_DATA = {
         title: "PERSONAL FINANCE MANAGEMENT",
         category: "Digital / Application",
         description: "A streamlined web application designed to help individuals track, organize, and manage personal expenses and financial habits.",
-        image: "assets/images/Picture27082017.jpg",
+        image: "/src/assets/images/Picture27082017.jpg",
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
