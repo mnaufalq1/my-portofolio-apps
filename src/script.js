@@ -597,19 +597,19 @@ function triggerCvDownload() {
     </div>
   </section>
   <section>
-    <h2>Technical Disciplines</h2>
+    <h2>Technical & Core Disciplines</h2>
     <div class="skills-list">
       <div>
-        <div class="skill-category">ART DIRECTION</div>
-        <div>Editorial Grids, Spatial Design, Typographic Scales, Swiss Posters</div>
+        <div class="skill-category">AQIDAH & THEOLOGY</div>
+        <div>Tawheed, Articles of Faith, Ushuluddin, Islamic Studies</div>
       </div>
       <div>
-        <div class="skill-category">SYSTEMS CODE</div>
-        <div>Semantic HTML5, Advanced CSS3, Vanilla JS, Canvas API, 2D Physics</div>
+        <div class="skill-category">FULLSTACK DEVELOPMENT</div>
+        <div>TypeScript, React, Node.js, Express, PostgreSQL, REST APIs</div>
       </div>
       <div>
-        <div class="skill-category">TOOLCHAIN</div>
-        <div>Figma, Adobe Suite, Git, Webpack, Responsive Layouts</div>
+        <div class="skill-category">ISLAMIC HISTORY</div>
+        <div>Seerah Nabawiyyah, Rashidun Caliphate, Tarikh & Civilization</div>
       </div>
     </div>
   </section>
@@ -674,19 +674,19 @@ function triggerCvDownload() {
     </div>
   </section>
   <section>
-    <h2>Keahlian Teknis</h2>
+    <h2>Keahlian Teknis & Disiplin</h2>
     <div class="skills-list">
       <div>
-        <div class="skill-category">PENGARAHAN SENI</div>
-        <div>Grid Editorial, Tata Letak Spasial, Pemasangan Tipografi, Kurasi Poster Swiss</div>
+        <div class="skill-category">AKIDAH & TAUHID</div>
+        <div>Tauhid & Rukun Iman, Ushuluddin, Pemurnian Keyakinan, Studi Islam</div>
       </div>
       <div>
-        <div class="skill-category">REKAYASA ANTARMUKA</div>
-        <div>HTML5 Vanilla, CSS3 Berkinerja Tinggi, JS Berpresisi Tinggi, Rendering SVG</div>
+        <div class="skill-category">PEMROGRAMAN FULLSTACK</div>
+        <div>TypeScript, React, Node.js, Express, Basis Data SQL, RESTful API</div>
       </div>
       <div>
-        <div class="skill-category">ARSIP PERALATAN</div>
-        <div>Figma, Adobe Creative Suite, Visual Studio, Kontrol Git, Sistem Webpack</div>
+        <div class="skill-category">SEJARAH ISLAM</div>
+        <div>Sirah Nabawiyah, Khulafaur Rasyidin, Tarikh Khilafah & Peradaban Islam</div>
       </div>
     </div>
   </section>
