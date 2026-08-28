@@ -4,6 +4,10 @@
  * ==========================================================================
  */
 
+import pictureFinance from "./assets/images/Picture1.png";
+import pictureConverter from "./assets/images/Picture2.jpg";
+import pictureWeather from "./assets/images/Picture3.png";
+
 export const I18N_DATA = {
   id: {
     // Navigation
@@ -57,7 +61,7 @@ export const I18N_DATA = {
         title: "MANAJEMEN KEUANGAN PERSONAL",
         category: "Digital / Aplikasi",
         description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu dalam mengelola keuangan pribadi.",
-        image: "/src/assets/images/Picture1.jpg",
+        image: pictureFinance,
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
@@ -66,7 +70,7 @@ export const I18N_DATA = {
         title: "KONVERTER VIDEO",
         category: "Digital / Aplikasi",
         description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu dalam mengonversi video ke format lain.",
-        image: "/src/assets/images/Picture2.png",
+        image: pictureConverter,
         link: "https://github.com/mnaufalq1/converter-video-apps",
         year: "2026"
       },
@@ -75,7 +79,7 @@ export const I18N_DATA = {
         title: "WEATHER APPS",
         category: "Digital / UI UX",
         description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu mengecek cuaca di kota tertentu dengan antarmuka yang bersih dan ramah pengguna.",
-        image: "/src/assets/images/Picture3.png",
+        image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
       }
@@ -182,7 +186,7 @@ export const I18N_DATA = {
         title: "PERSONAL FINANCE MANAGEMENT",
         category: "Digital / Application",
         description: "A streamlined web application designed to help individuals track, organize, and manage personal expenses and financial habits.",
-        image: "/src/assets/images/Picture1.jpg",
+        image: pictureFinance,
         link: "https://github.com/mnaufalq1/money_dashboard",
         year: "2026"
       },
@@ -191,7 +195,7 @@ export const I18N_DATA = {
         title: "VIDEO CONVERTER APPS",
         category: "Digital / Application",
         description: "A web apps designed to help individuals convert videos to other formats with a clean and user-friendly interface.",
-        image: "/src/assets/images/Picture2.png",
+        image: pictureConverter,
         link: "https://github.com/mnaufalq1/converter-video-apps",
         year: "2026"
       },
@@ -200,7 +204,7 @@ export const I18N_DATA = {
         title: "WEATHER APPS",
         category: "Digital / UI UX",
         description: "A web apps designed to help individuals check the weather in a specific city with a clean and user-friendly interface.",
-        image: "/src/assets/images/Picture3.png",
+        image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
       }
