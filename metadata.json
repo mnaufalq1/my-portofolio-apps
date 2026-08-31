@@ -1,6 +1,6 @@
 {
-  "name": "Minimalist Portfolio",
-  "description": "A typography-driven minimalist portfolio featuring multi-mode generative physics backgrounds, dynamic color themes, bilingual ID/EN support, Command Palette (Ctrl+K), and smooth vanilla animations.",
+  "name": "Portofolio Sederhana Beranimasi Aktif",
+  "description": "Portofolio sederhana beranimasi aktif yang menampilkan karya, keahlian, dan informasi kontak.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
