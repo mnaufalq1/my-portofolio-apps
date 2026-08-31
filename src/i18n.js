@@ -11,7 +11,7 @@ import pictureWeather from "./assets/images/Picture3.png";
 export const I18N_DATA = {
   id: {
     // Navigation
-    navLogo: "PALTOFOLIO",
+    navLogo: "MUHAMMAD NAUFAL",
     navHome: "BERANDA",
     navSkills: "KEAHLIAN",
     navPortfolio: "KARYA",
@@ -34,7 +34,7 @@ export const I18N_DATA = {
     skill1Desc: "Pemahaman komprehensif mengenai tauhid, rukun iman, pemurnian keyakinan, serta prinsip-prinsip dasar teologi Islam berlandaskan Al-Qur'an dan As-Sunnah.",
     skill1Tag1: "Tauhid & Rukun Iman",
     skill1Tag2: "Ushuluddin",
-    skill1Tag3: "Tazkiyatun Nafs",
+    skill1Tag3: "Aqidah & Manhaj",
 
     skill2Num: "02",
     skill2Title: "PEMROGRAMAN WEB FULLSTACK",
@@ -53,7 +53,7 @@ export const I18N_DATA = {
     // Portfolio Section
     portfolioSectionNum: "02 / ARSIP",
     portfolioSectionTitle: "KARYA PROYEK SPASIAL & DIGITAL PILIHAN",
-    projectLinkText: "LIHAT PROYEK",
+    projectLinkText: "SUMBER KODE",
     
     projects: [
       {
@@ -78,7 +78,7 @@ export const I18N_DATA = {
         id: 3,
         title: "WEATHER APPS",
         category: "Digital / UI UX",
-        description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu mengecek cuaca di kota tertentu dengan antarmuka yang bersih dan ramah pengguna.",
+        description: "Aplikasi berbasis web yang dirancang sederhana untuk membantu individu mengecek cuaca di kota tertentu dengan antarmuka yang bersih dan fitur yang kompleks.",
         image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
@@ -136,7 +136,7 @@ export const I18N_DATA = {
 
   en: {
     // Navigation
-    navLogo: "PALTFOLIO",
+    navLogo: "MUHAMMAD NAUFAL",
     navHome: "HOME",
     navSkills: "SKILLS",
     navPortfolio: "WORKS",
@@ -159,7 +159,7 @@ export const I18N_DATA = {
     skill1Desc: "Comprehensive understanding of Tawheed, Articles of Faith (Iman), purification of creed, and fundamental Islamic theological principles rooted in the Quran and Sunnah.",
     skill1Tag1: "Tawheed & Creed",
     skill1Tag2: "Ushuluddin",
-    skill1Tag3: "Tazkiyatun Nafs",
+    skill1Tag3: "Aqidah & Manhaj",
 
     skill2Num: "02",
     skill2Title: "FULLSTACK WEB DEVELOPMENT",
@@ -178,7 +178,7 @@ export const I18N_DATA = {
     // Portfolio Section
     portfolioSectionNum: "02 / ARCHIVE",
     portfolioSectionTitle: "SELECTED SPATIAL & DIGITAL WORKS",
-    projectLinkText: "VIEW PROJECT",
+    projectLinkText: "SOURCE CODE",
     
     projects: [
       {
@@ -203,7 +203,7 @@ export const I18N_DATA = {
         id: 3,
         title: "WEATHER APPS",
         category: "Digital / UI UX",
-        description: "A web apps designed to help individuals check the weather in a specific city with a clean and user-friendly interface.",
+        description: "A web apps designed to help individuals check the weather in a specific city with a clean interface and complex feature.",
         image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"

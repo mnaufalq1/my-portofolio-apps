@@ -401,7 +401,7 @@ function initCustomCursor() {
 // ==========================================================================
 // 8. DYNAMIC PORTFOLIO GRID RENDERER
 // ==========================================================================
-function renderProjects(projectsList, linkText = "LIHAT PROYEK") {
+function renderProjects(projectsList, linkText = "SUMBER KODE") {
   const gridContainer = document.getElementById("portfolio-grid");
   if (!gridContainer) return;
   

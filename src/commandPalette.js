@@ -110,7 +110,7 @@ export class CommandPalette {
         id: "nav-home",
         category: isEn ? "Navigation" : "Navigasi",
         title: isEn ? "Go to Home / Overview" : "Pergi ke Beranda",
-        icon: "🏠",
+        icon: "",
         action: () => {
           window.location.hash = "#home";
         }
@@ -119,7 +119,7 @@ export class CommandPalette {
         id: "nav-skills",
         category: isEn ? "Navigation" : "Navigasi",
         title: isEn ? "Go to Skills & Disciplines" : "Lihat Keahlian & Disiplin",
-        icon: "⚡",
+        icon: "",
         action: () => {
           window.location.hash = "#skills";
         }
@@ -128,7 +128,7 @@ export class CommandPalette {
         id: "nav-portfolio",
         category: isEn ? "Navigation" : "Navigasi",
         title: isEn ? "Go to Selected Works & Archive" : "Jelajahi Arsip Karya",
-        icon: "📁",
+        icon: "",
         action: () => {
           window.location.hash = "#portfolio";
         }
@@ -137,7 +137,7 @@ export class CommandPalette {
         id: "nav-contact",
         category: isEn ? "Navigation" : "Navigasi",
         title: isEn ? "Go to Contact / Correspondence" : "Buka Formulir Kontak",
-        icon: "✉️",
+        icon: "",
         action: () => {
           window.location.hash = "#contact";
         }
@@ -148,42 +148,42 @@ export class CommandPalette {
         id: "theme-cyber-neon",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Cyber Neon (Default Orange)" : "Tema: Cyber Neon (Oranye)",
-        icon: "🔥",
+        icon: "",
         action: () => this.onSelectTheme("cyber-neon")
       },
       {
         id: "theme-deep-obsidian",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Deep Obsidian (Cyan/Teal)" : "Tema: Deep Obsidian (Sian)",
-        icon: "💎",
+        icon: "",
         action: () => this.onSelectTheme("deep-obsidian")
       },
       {
         id: "theme-solar-amber",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Solar Amber (Gold/Yellow)" : "Tema: Solar Amber (Emas)",
-        icon: "☀️",
+        icon: "",
         action: () => this.onSelectTheme("solar-amber")
       },
       {
         id: "theme-matrix-emerald",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Matrix Emerald (Green)" : "Tema: Matrix Emerald (Hijau)",
-        icon: "🟢",
+        icon: "",
         action: () => this.onSelectTheme("matrix-emerald")
       },
       {
         id: "theme-aurora-flow",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Aurora Flow (Purple)" : "Tema: Aurora Flow (Ungu)",
-        icon: "🔮",
+        icon: "",
         action: () => this.onSelectTheme("aurora-flow")
       },
       {
         id: "theme-light",
         category: isEn ? "Color Themes" : "Tema Warna",
         title: isEn ? "Theme: Swiss Editorial Light" : "Tema: Swiss Editorial Light (Terang)",
-        icon: "⚪",
+        icon: "",
         action: () => this.onSelectTheme("light")
       },
 
@@ -192,42 +192,42 @@ export class CommandPalette {
         id: "bg-quantum",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: "Quantum Constellation (Interactive Nodes)",
-        icon: "⚛️",
+        icon: "",
         action: () => this.onSelectBgMode("quantum")
       },
       {
         id: "bg-hyperspace",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: "Hyperspace Warp (3D Velocity Stars)",
-        icon: "🚀",
+        icon: "",
         action: () => this.onSelectBgMode("hyperspace")
       },
       {
         id: "bg-swarm",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: "Gravitational Swarm (Magnetic Cursor Orbit)",
-        icon: "🪐",
+        icon: "",
         action: () => this.onSelectBgMode("swarm")
       },
       {
         id: "bg-matrix",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: "Cyber Matrix (Vertical Glyph Rain)",
-        icon: "💻",
+        icon: "",
         action: () => this.onSelectBgMode("matrix")
       },
       {
         id: "bg-sine",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: "Harmonic Sine Waves (Fluid Interferometry)",
-        icon: "🌊",
+        icon: "",
         action: () => this.onSelectBgMode("sine")
       },
       {
         id: "bg-off",
         category: isEn ? "Background Physics" : "Latar Belakang Fisika",
         title: isEn ? "Static Clean Grid (Physics Off)" : "Grid Statis (Fisika Mati)",
-        icon: "⏹️",
+        icon: "",
         action: () => this.onSelectBgMode("off")
       },
 
@@ -236,14 +236,14 @@ export class CommandPalette {
         id: "lang-id",
         category: isEn ? "Language" : "Bahasa",
         title: "Bahasa Indonesia (ID)",
-        icon: "🇮🇩",
+        icon: "",
         action: () => this.onSelectLang("id")
       },
       {
         id: "lang-en",
         category: isEn ? "Language" : "Bahasa",
         title: "English (EN)",
-        icon: "🇬🇧",
+        icon: "",
         action: () => this.onSelectLang("en")
       },
 
@@ -252,14 +252,14 @@ export class CommandPalette {
         id: "act-cv",
         category: isEn ? "Actions" : "Aksi",
         title: isEn ? "Download Compiled CV / Resume (HTML)" : "Unduh Berkas CV / Resume (HTML)",
-        icon: "📄",
+        icon: "",
         action: () => this.onDownloadCv()
       },
       {
         id: "act-email",
         category: isEn ? "Actions" : "Aksi",
         title: isEn ? "Copy Direct Email (mnaufalq1@gmail.com)" : "Salin Alamat Email (mnaufalq1@gmail.com)",
-        icon: "📋",
+        icon: "",
         action: () => this.onCopyEmail()
       }
     ];
