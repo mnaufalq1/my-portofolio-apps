@@ -7,6 +7,7 @@
 import pictureFinance from "./assets/images/Picture1.png";
 import pictureConverter from "./assets/images/Picture2.jpg";
 import pictureWeather from "./assets/images/Picture3.png";
+import pictureLinknest from "./assets/images/Picture4.png";
 
 export const I18N_DATA = {
   id: {
@@ -82,7 +83,16 @@ export const I18N_DATA = {
         image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
-      }
+      },
+      {
+        id: 4,
+        title: "LINKNEST: MANAJEMEN BOOKMARK",
+        category: "Digital / UI UX",
+        description: "Sebuah aplikasi berbasis web yang dirancang sederhana untuk membantu individu melacak, mengatur, dan mengelola bookmark dengan antarmuka yang bersih dan fitur yang kompleks.",
+        image: pictureLinknest,
+        link: "https://github.com/mnaufalq1/linknest-bookmark-manager",
+        year: "2026"
+      },
     ],
 
     // Contact Section
@@ -207,7 +217,16 @@ export const I18N_DATA = {
         image: pictureWeather,
         link: "https://github.com/mnaufalq1/weather-apps",
         year: "2026"
-      }
+      },
+      {
+        id: 4,
+        title: "LINKNEST: BOOKMARK MANAGER",
+        category: "Digital / UI UX",
+        description: "A streamline web application designed to help individuals track, organize, and manage their bookmarks with a clean interface and complex feature.",
+        image: pictureLinknest,
+        link: "https://github.com/mnaufalq1/linknest-bookmark-manager",
+        year: "2026"
+      },
     ],
 
     // Contact Section
